@@ -23,7 +23,7 @@ public class UsuarioService : IUsuarioService
 
         if (usuario == null)
         {
-            throw new Exception("Usuario no encontrado");
+            throw new Exception("Usuario no encontrado con esas credenciales");
         }
 
         return usuario;
